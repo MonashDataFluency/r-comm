@@ -1,6 +1,7 @@
 book/*.rds
 /_book/
 /*.swp
+*.Rproj
 .Rproj.user
 .Rhistory
 /book/_bookdown_files
