@@ -164,8 +164,7 @@ Firstly lets make sure we have our data properly filtered. We are going to filte
 
 ```{r echo = F, comment=""}
 text <- c("```{r}",
-          "df2 <- df %>% filter(Airline == 'Jetstar' | Airline == 'Qantas')",
-	  "                     Route != 'All Ports-All Ports')",
+          "df2 <- df %>% filter( (Airline == 'Jetstar' | Airline == 'Qantas') & Route != 'All Ports-All Ports')",
 	  "```")
 
 cat(text, sep = '\n')

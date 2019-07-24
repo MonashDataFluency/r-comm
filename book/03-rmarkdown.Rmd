@@ -14,7 +14,7 @@ title = "Learning Rmarkdown"
 author = "Me"
 ```
 - select document type **HTML**
-- to build (compile) the document by press `knitr` button or `ctrl+alt+k`
+- to build (compile) the document by press `knitr` button or `Ctrl+Alt+k`
 - save file by pressing `ctrl^S` and name the files `learning_rmarkdown.Rmd`, not an additional **r** there.
 
 There is a hint in the name - **R** as to what programming language will be using for the rest of our course. Hopefully you have some familiarity with an R and it's syntax or you have had some other exposure to other programming languages. I wont be asking you to write your own R code, most of it will be copy and paste from this book. However certain terminology will be assumed going forward. This is mainly things like "variable", which in use in programming languages to store a value, can a string e.g "ten" or a number e.g 10. Typically to get the value out of the variable you'll need to "print" it out. These are bear minimum understanding that you should have, and it'll be enough to get you through this workshop. Let's start by writing some R and embedding it into Rmarkdown documents.
@@ -51,19 +51,19 @@ Let's write our first bit of R code inside the Rmarkdown document. First we need
 
 - simply type it out
 - press insert button at the top of the window
-- `ctrl+alt+i`
+- `Ctrl+Alt+i`
 
 Let's start our new document with the main header section and type the following `# Learning Rmarkdown`. Now let's add simple R code to our chunk, type the following code `a <- "Hello world, I'm learning Rmarkdown !"` and press `knitr` button to build html document. Note that as mentioned above we need to use `print()` statement to get the content of the variable to the scree/final document.
 
 ```{r echo=FALSE, comment=""}
 text <- c("```{r}",
-           "a <- 'Hello world, I'm learning Rmarkdown !'",
+           "a <- \"Hello world, I\'m learning Rmarkdown !\" ",
            "print(a)",
            "```")
 cat(text, sep = "\n")
 ```
 
-Tip: each chunk can be run independently in the console by pressing `ctrl^enter` or little green arrow.
+Tip: each chunk can be run independently in the console by pressing `Ctrl+Enter` or little green arrow.
 
 ## Chunk options
 
