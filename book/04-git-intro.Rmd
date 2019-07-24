@@ -19,7 +19,7 @@ knitr::include_graphics("figures/git_vs_filesystem.png")
 Git is a command line tool however you don't have to learn command line just yet. There are a [few git clients available](https://happygitwithr.com/git-client.html) - graphical user interface (GUI) tool / applications that we can use instead of learning command line. We are going to use RStudio which has good git support and therefore Rstudio will be our git client. One rather important note about git clients, most (all) clients will "simply" form a git commands as you would type it out and execute on command line. This means a couple of things:
 
 1. one can use mixture of clients and command line without any issues. For example if one needs more complicated git command one could run it on the command-line.
-2. if you need to do a more complicated git kung fu you might only find solution for command line and then it'll be up to you to figure out how to work it into your client
+2. if you need to do a more complicated git kung fu you might only find solution for command line and then it'll be up to you to figure out how to work it into your client.
 
 An interesting note about command line git usage noted in [Happy Git with R book](https://happygitwithr.com/git-client.html); One might think that git via cli is "better", however it is more important to get the work done and have it version controlled rather then fight with the cli. Do take the simplest and quickest path to get your work version controlled. No one will care which client you are using in the end.
 
@@ -39,7 +39,7 @@ knitr::include_graphics("figures/rstudio-cloud6.png")
 ### Configuring git
 
 You will most certainly forget this step, because you only need to do it once per computer (or new installation of git). Git will remind if you haven't done these steps.
-These are our very first step in being organise and ready for future collaboration. We need to let git know our name and email address, which will get stored in configuration file.
+These are our very first step in being organised and ready for future collaboration. We need to let git know our name and email address, which will get stored in configuration file.
 
 Unfortunately RStudio doesn't have support for setting up config. It was probably not worth implementing given that you only really do it once. We will have to use terminal (command line) just this once.
 
@@ -49,10 +49,10 @@ Tools -> Terminal -> New Terminal
 
 ```
 git config --global user.name kirill
-git config --global user.name "kirill.tsyganov@monash.edu"
+git config --global user.email "kirill.tsyganov@monash.edu"
 ```
 
-One can then double check that all was set correctly bu running this command.
+One can then double check that all was set correctly by running this command.
 
 ```
 git config --global --list
@@ -62,7 +62,7 @@ git config --global --list
 knitr::include_graphics("figures/git2.png")
 ```
 
-### Intiating git repository
+### Initating git repository
 
 In git jargon repository is simply your working folder (folders sometimes also called directories). In our case
 
@@ -124,7 +124,7 @@ Those commit messages are means of communications e.g
 
 Good thing is, as long as you "tracking" your deletes you can always go back to them and check what you have deleted and revert some of those changes back when needed. However in this workshop we won't be covering much of that.
 
-Also note that commit message don't have to long, and can be as short as one work - "update2", but at the same time well written commit message will help you and other.
+Also note that commit message don't have to be long, and can be as short as one work - "update2", but at the same time well written commit message will help you and other.
 
 http://r-pkgs.had.co.nz/git.html#commit-best-practices
 

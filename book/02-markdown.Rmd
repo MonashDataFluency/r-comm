@@ -110,6 +110,6 @@ This is how you can specify different headers type using markdown.
     2. Can markdown replace [html](https://en.wikipedia.org/wiki/HTML) (discussion question)?
   </summary>
   It has replaced html and latex in documention and communication of results. My feeling is that data science ecosystem heavily rotates around markdown. But html, pdf and latex in this context are simply communication and sharing medium.
-  On would not want to replace html + css for large website project
+  One would not want to replace html + css for large website project
 </details>
 

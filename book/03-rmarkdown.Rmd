@@ -31,7 +31,7 @@ This type approach is supper common and supper useful when you working with some
 
 ## Embedding R code
 
-RStudio is pretty good it templates our Rmd file a bit. Lets delete all the text past these lines.
+RStudio is pretty good it templates our Rmd file a bit. Let's delete all the text past these lines.
 
 ```{r, echo=FALSE, comment=""}
 text1 <- c("---",
@@ -99,7 +99,7 @@ cat(text1, sep = "\n")
 ```
 
 Note a couple of things, there isn't a comma between `r` and `chunk_name`. Not sure why this is..
-Also note that `chunk_name` is optional, you can skip it, as we have in earlier examples. Naming chunks is good idea to conceptually label the chunk as to what it does, but also we you are going to build more sophisticated documents you'll be able to selectively include chunks by refer to them by the chunk name.
+Also note that `chunk_name` is optional, you can skip it, as we have in earlier examples. Naming chunks is good idea to conceptually label the chunk as to what it does, but also we you are going to build more sophisticated documents you'll be able to selectively include chunks by refering to them by the chunk name.
 
 Lets start off with these three chunk options:
 
