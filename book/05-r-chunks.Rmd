@@ -31,7 +31,7 @@ cat(text1, sep = "\n")
 plot(mtcars)
 ```
 
-This is great, but a bit too much information, lets just focus on number of cylinders and hourse power.
+This is great, but a bit too much information, let's just focus on number of cylinders and hourse power.
 
 
 ```{r echo=FALSE, comment=""}
@@ -131,14 +131,14 @@ Note that we are starting to hit "boundaries" of the documents. (want to talk ab
 
 <details>
   <summary>
-    1. Can you align figure to the right??
+    1. Can you align figure to the right?
   </summary>
   `fig.align = 'right'`
 </details>
 
 <details>
   <summary>
-    2. Align figure to the center and add figure legend
+    2. Align figure to the center and add figure legend.
   </summary>
   `fig.align = 'center', fig.cap = 'Figure 1: blah'`
 </details>
@@ -147,7 +147,7 @@ Note that we are starting to hit "boundaries" of the documents. (want to talk ab
   <summary>
     3. Can you add some emphasis to figure legend, e.g make important parts bold or underlined?
   </summary>
-  Remember that figure legend is just a string of text and any text can be marked
+  Remember that figure legend is just a string of text and any text can be marked.
 </details>
 
 ## More useful chunk options
@@ -182,7 +182,7 @@ for(word in sentence){
 }
 ```
 
-Let's add `prompt=TRUE`
+Let's add `prompt=TRUE`.
 
 
 ```{r prompt=TRUE}
@@ -223,14 +223,14 @@ for(word in sentence){
 
 <details>
   <summary>
-    1. Add `library(tidyverse)` to get lots of messages and try to suppress them with chunk options
+    1. Add `library(tidyverse)` to get lots of messages and try to suppress them with chunk options.
   </summary>
   `message = FALSE`
 </details>
 
 <details>
   <summary>
-    2. In the example about `child_chunk_example.R` gives warning messages, can you suppress them from the output
+    2. In the example about `child_chunk_example.R` gives warning messages, can you suppress them from the output.
   </summary>
   `message = FALSE`
 
