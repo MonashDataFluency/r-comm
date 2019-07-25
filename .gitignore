@@ -13,3 +13,4 @@ book/*.csv
 book/*.txt
 book/examples/libs
 book/examples/multi_page_report_files
+bool/libs

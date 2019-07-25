@@ -67,7 +67,7 @@ rmd_files:
 
        ----
        title: "Hello world!"
-       author: Me!
+       author: "Me!"
        ---
 
   </summary>
@@ -81,11 +81,11 @@ rmd_files:
 
        ----
        title: "Hello world!"
-       author: Me!
+       author: "Me!"
        bookdown::gitbook:
          config:
            toc:
-             collapse: subsection
+             collapse: "subsection"
        ---
 
   </summary>
